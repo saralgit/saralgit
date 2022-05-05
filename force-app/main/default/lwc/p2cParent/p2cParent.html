@@ -1,0 +1,9 @@
+<template>
+    <c-p2c-child message="I got the data" card-heading="this is child component" ></c-p2c-child>
+    <c-p2c-child-carousel child-data = {childData}></c-p2c-child-carousel>
+    <input type="text" onkeyup={changeHandler} value={percentage}></input>
+    <c-p2c-progress-component progress-value={percentage}></c-p2c-progress-component>
+    <h1>Parent to Child</h1>
+    <button onclick={handleClick}>Click Me</button>
+    <c-p2c-slider-component></c-p2c-slider-component>
+</template>

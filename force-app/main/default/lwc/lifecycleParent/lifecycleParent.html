@@ -1,0 +1,14 @@
+<template>
+    <div class="abc">Hello from Parent</div>
+    <input type="text" onkeyup={changeHandler}/>
+    {name}
+    <template if:true={isChildVisible}>
+        <button onclick={handleClick}>Remove Child</button>
+    </template>
+    <template if:false={isChildVisible}>
+        <button onclick={handleClick}>Show Child</button>
+    </template>
+    <template if:true={isChildVisible}>
+        <c-lifecycle-child></c-lifecycle-child>
+    </template>
+</template>

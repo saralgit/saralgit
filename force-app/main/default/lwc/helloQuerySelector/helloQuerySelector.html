@@ -1,0 +1,8 @@
+<template>
+    <h1>Hello All</h1>
+    <template for:each={users} for:item="user">
+        <div class="name" key={user}>{user}</div>
+    </template>
+    <div class="child" lwc:dom="manual"></div>
+    <button onclick={buttonClickHandler}>Click Me</button>
+</template>

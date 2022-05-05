@@ -1,0 +1,15 @@
+h1{
+    color:var(--lwc--brandAccessible);
+    border: 1px solid red;
+    font-size: 20px;
+}
+.user{
+    color:aqua;
+    font-size: 40px;
+}
+.user:hover{
+    font-size: 60px;
+    color: red;
+}
+
+

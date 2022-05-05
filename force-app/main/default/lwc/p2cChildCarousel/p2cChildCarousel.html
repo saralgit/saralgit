@@ -1,0 +1,6 @@
+<template>
+    <h1>Hello data will now come from parent component</h1>
+    <template for:each={childData} for:item="item">
+        <div key={item.age}>{item.name} && {item.age}</div>
+    </template>
+</template>
